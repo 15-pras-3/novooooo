@@ -1,0 +1,57 @@
+.menu{
+    background-color: rgb(157, 226, 125);
+    display: flex;
+    flex: 1;
+    justify-content: left;
+}
+
+.titulo{
+    background-color: aliceblue;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.grive{
+    background-color: rgb(157, 226, 125);
+    display: flex;
+    flex: 1;
+    justify-content: left;
+}
+
+.p {margin-left: 20px;  margin-right: 20px;}
+
+.texto{
+    display: flex;
+    flex: 1;
+    margin-left: 20px;  /* espaçamento da direita  */
+    padding-bottom: 200px;
+    flex-direction: column;   /* espaçamento de */
+}
+
+.menu ul{
+    flex-direction: row;
+    display: flex;
+}
+
+.menu ul li{
+    list-style-type: none;
+    padding: 20px; /* pra aredondar as bordas de algo */
+}
+
+.menu ul li:hover{
+    background-color: whitesmoke; 
+    border-radius: 10px; 
+}
+header{ display: flex; 
+    flex-direction: row;
+    background-color: whitesmoke; 
+}
+
+body {
+    background-image: url('foto\ fundo.jpeg');
+}
+.corpo {
+    margin: 0 250px 0 250px;
+    background-color: aliceblue;
+}
